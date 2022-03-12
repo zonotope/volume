@@ -1,0 +1,4 @@
+#! /bin/sh
+
+BASEDIR=$(dirname "$0")
+(cd "$BASEDIR" && bb --main one.732.volume/run "$@")
